@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" />
+   <link rel="stylesheet" href="responsive.css" />
+ 	<title>Comunity</title>
+</head>
+<body bgcolor= "#DCDCDC">
+	<div class="navigation">
+        <img class="logo" src="gambar/gambar11.png"> 
+            <ul class="home">
+		  		<li><a href="index.html"><h3>Home</h3></a></li>
+		  		<li><a href="about.html"><h3>About</h3></a></li>
+		  		<li><a href="kegiatan.html"><h3>Kegiatan</h3></a></li>
+          <li><a href="galeri.html"><h3>Galery</h3></a></li>
+		  		<li><a href="contact.html"><h3>Contact</h3></a></li>
+			</ul>
+    </div>
+
+  <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="gambar/gambar4.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="gambar/gambar5.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="gambar/gambar6.jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+        <p>
+          <h1><center> PECINTA ALAM </center></h1>
+        </p>
+  <div class="main"> <!--Section MAIN BODY-->
+            <div class="konten">
+              <img class="image hidden" src="gambar/gambar12.png">
+            </div>
+        <div class="sidebar">
+            <p>
+            PANTALA (Pecinta Alam Santa Angela) didirikan pada tanggal 2 Oktober 1988, lahir dari gagasan sekelompok siswa/i yang memiliki keinginan untuk aktif dalam kegiatan di alam bebas (outdoor activities). Pada awalnya, pecinta alam ini bukan bernama PANTALA melainkan PAPIKSA (Pecinta Alam dan Peminat Ilmu Kemasyarakatan Santa Angela), dan meskipun telah berubah nama,  perjalanan pecinta alam terus berjalan. Pahit-manis, suka-duka terus menerus di alami PANTALA dari generasi ke generasi, namun ini membuat PANTALA menjadi kuat karena PANTALA didirikan dan masih tetap berdiri karena hubungan kekeluargaan yang erat antar anggotanya.</p>
+            <p>
+            Dari namanya sebagai “Pecinta Alam”, diharapkan tercermin suatu kesungguhan untuk tidak hanya beraktivitas pada kegiatan-kegiatan alam bebas, namun lebih daripada itu, sebenarnya ada tuntutan untuk bergerak mengungkap data dan mengemukakan analisa, bahkan sekaligus berkarya nyata dan turut menjawab fenomena yang tengah tumbuh dan berkembang di tengah kehidupan alam dan masyarakat saat ini. Dengan demikian, lewat organisasi ini diharapkan muncul suatu wadah belajar untuk mengembangkan rasa tanggap pribadi, tanggap kelompok khususnya, dan juga tanggap terhadap masyarakat serta lingkungan umumnya. Rasa kecintaan terhadap alam tidak didapat begitu saja, tetapi melalui proses yang cukup lama, dimulai dari mengenal, memahami, sadar, hingga akhirnya sampai kepada suatu sikap dimana siswa sadar akan keterkaitan dirinya sebagai suatu komponen dalam jaringan yang saling membutuhkan di alam ini.</p>
+            <p>
+            Diharapkan dari kegiatan kepecintaalaman ini akan dapat tercangkup aspek-aspek pendidikan intelektual, pengembangan watak dan pembinaan keterampilan yang selanjutnya dapat dijadikan nilai tambah dan bekal dalam aktivitas di alam serta di masyarakat nanti.
+            </p>
+        </div>
+  </div>
+<div class="contac">
+        <a href="https://www.facebook.com/pantala1988">FACEBOOK</a>
+        <a href="https://twitter.com/pantala88">TWITTER</a>
+        <a href="https://www.instagram.com/pantala88/">INSTAGRAM</a>
+        <a href="https://www.google.com/maps">MAP</a>
+  </div>
+
+</body>
+</html> 

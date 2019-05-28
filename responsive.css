@@ -1,0 +1,125 @@
+@media screen and (max-width: 560px){
+  body {
+  margin: auto;
+  width: 270px ;
+
+}
+.image{
+  
+  width: 100%;
+  height: auto;
+ 
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 7px;
+  padding: 8px 8px;
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+  font-family: "Century Gothic";
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  
+}
+.navigation{
+	font-size: 8px;
+}
+.hidden{
+	display: none;
+}
+.logo{
+	width: 100px;
+	height: 50px;
+}
+
+.sidebar {
+ width: 100%;
+  height: auto;
+  background: #DCDCDC;
+}
+.flex-item{
+	width: 500px;
+	height: 200px;
+}
+.column {
+  width: 100px;
+ height: auto;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  width: 100px;
+ height: auto;
+  
+}
+}
+@media screen and (max-width: 561px) and (max-width: 956px){
+  body {
+  margin: auto;
+  width: 270px ;
+
+}
+  .navigation {
+    justify-content: space-around;
+  }
+
+ 
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+  text-align: center;
+  font-family: "Century Gothic";
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  
+}
+.navigation{
+	font-size: 8px;
+}
+.hidden{
+	display: none;
+}
+.logo{
+	width: 100px;
+	height: 50px;
+}
+.sidebar {
+  width: 100%;
+  height: auto;
+  background: #DCDCDC;
+}
+.flex-item{
+	width: 500px;
+	height: 200px;
+}
+.column {
+  width: 100px;
+ height: auto;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  width: 100px;
+  height: auto;
+  content: "";
+  clear: both;
+  display: table;
+}
+}

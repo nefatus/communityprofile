@@ -1,0 +1,290 @@
+.navigation {
+  list-style: none;
+  margin: 0;
+  background: #DCDCDC;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end;
+
+}
+.home{
+  list-style: none;
+  margin-left:auto;
+  display: flex;
+}
+.logo{
+   display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.navigation a {
+  text-decoration: #F0F8FF;
+  display: block;
+  padding: 1em;
+  color: black;
+}
+
+.navigation a:hover {
+  background: #F5F5F5;
+}
+
+
+  .navigation a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+.image{
+  margin-bottom: 5px;
+  padding: 10px 0;
+  width: 25%;
+  height: 25%;
+  text-align: center;
+}
+
+.header {
+  background: #F5F5F5;
+  font-size: 18px;
+  font-style: oblique;
+
+}
+
+.footer{
+  width: 100%;
+  background: #696969;
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 15px 0;
+}
+.navigasi,
+.konten,
+.sidebar{
+  margin-bottom: 5px;
+  padding: 15px 0;
+}
+
+.navigasi {
+  width: 100%;
+  height: auto;
+  background: #DCDCDC;
+  text-align: left;
+}
+
+.konten {
+  width: 20%;
+  background: #DCDCDC;
+}
+
+.sidebar {
+  width: 80%;
+  background: #DCDCDC;
+}
+
+.main {
+  display: flex;
+  margin-left: auto;
+}
+
+body {
+  margin: 1rem;
+  font: 16px system-ui;
+
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: #DCDCDC;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+}
+
+.runtext-container {
+overflow-x: hidden;
+overflow-y: visible;
+
+}
+
+.main-runtext {
+overflow: visible;
+position: relative;
+}
+
+.contac {
+    overflow: hidden;
+    background-color: black;
+    border-radius : 8px;
+
+}
+.contac a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+
+
+}
+.contac a:hover {
+    background-color: white;
+    color: black;
+
+}
+iframe{
+  width: 100%;
+  height : 300px;
+    margin-top : 5px;
+    border-radius :9px;
+}
+.peta-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.peta-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 90px;
+  width: 100%;
+  text-align: center;
+  font-family: "Century Gothic";
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+
+
+  * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+ 
+
+
+
+
+
+
